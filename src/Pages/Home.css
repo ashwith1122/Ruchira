@@ -1,0 +1,101 @@
+.but1 {
+    position: absolute;
+    top: 620px;
+    left: 65px;
+    border: 0cap;
+    width: 150px;
+    height: 50px;
+}
+
+.but2 {
+    position: absolute;
+    top: 620px;
+    left: 228px;
+    border: 0cap;
+    width: 150px;
+    height: 50px;
+}
+
+.view {
+    position: absolute;
+    top: 750px;
+}
+
+.viewall {
+    color: rgb(244, 111, 24);
+    position: absolute;
+    right: 60px;
+    font-size: 20px;
+}
+
+.hii {
+    position: absolute;
+    right: 90px;
+    top: 857px;
+}
+
+.harsha {
+    width: 100%;
+    /* position: absolute; */
+    /* top: 1000px;  */
+    /* height: 700px; */
+    padding-top: 90px;
+}
+
+.ashu {
+    background-color: rgb(244, 111, 24);
+    position: absolute;
+    top: 1365px;
+    left: 48px;
+    width: 269px;
+    height: 55px;
+    border: 0cap;
+}
+
+#footers {
+    height: 200px;
+    position: absolute;
+    top: 1450px;
+    left: 10px;
+}
+
+.footer-phone {
+    color: rgb(244, 111, 24);
+    text-decoration: none;
+    font-size: 20px;
+    position: absolute;
+    top: 1540px;
+    left: 260px;
+}
+.footer-phone1 {
+    color: rgb(244, 111, 24);
+    text-decoration: none;
+    font-size: 20px;
+    position: absolute;
+    top: 1540px;
+    left:470px;
+}
+
+.footer-phone:hover {
+    color: blue;
+}
+
+.footer-location {
+    color:  #ff6b00;
+    text-decoration: none;
+    position: absolute;
+    font-size: 20px;
+    top: 1540px;
+    left: 670px;
+}
+
+.footer-location:hover {
+    color:blue;
+
+}
+#me
+{
+     position: absolute;
+    top: 1540px;
+    left: 1000px;
+}

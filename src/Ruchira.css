@@ -1,0 +1,21 @@
+.dropdown-item {
+    background-color: black;
+    color: white;
+}
+
+.dropdown-item:hover {
+    background-color: rgb(244, 111, 20);
+    /* color: white; */
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    border-top: 0px solid rgb(244, 111, 20);
+    border-bottom: 15px solid rgb(244, 111, 24);
+    border-right: 20px solid rgb(244, 111, 20);
+    border-left: 20px solid rgb(244, 111, 20);
+}

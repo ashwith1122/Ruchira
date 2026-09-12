@@ -1,0 +1,33 @@
+/* Carousel */
+#carouselId {
+    width: 90%;
+    max-width: 1200px;
+    margin: 25px auto;
+}
+
+#carouselId .carousel-inner {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+#carouselId .carousel-item {
+    width: 100%;
+    height: 460px;
+}
+
+#carouselId .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.ruchi
+{
+    height: 1000px;
+    width: 660px;
+    position: absolute;
+    left: 50%;
+    top: 1800px;
+}
