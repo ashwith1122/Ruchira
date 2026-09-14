@@ -32,10 +32,15 @@ function Ruchira() {
                                 <Link class="dropdown-item" to="/categories/panipuri">PaniPuri🥙</Link>
                                 <Link class="dropdown-item" to="/categories/snacks">Snacks🫓</Link>
                                 <Link class="dropdown-item" to="/categories/combos">Combos🍱</Link>
+                                <Link class="dropdown-item" to="/categories/chapathis">Chapathis🥙</Link>
+
                             </div>
                         </li>
                         <li class="nav-item">
                             <Link class="nav-link" to="/aboutus">AboutUs</Link>
+                        </li>
+                         <li class="nav-item">
+                            <Link class="nav-link" to="/addtocart">Cart</Link>
                         </li>
                         <li class="nav-item">
                             <Link class="nav-link" to="/login">Login</Link>

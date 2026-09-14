@@ -12,6 +12,7 @@ import ruchira24 from "../assets/ruchira24.png";
 import ruchira25 from "../assets/ruchira25.png";
 import ruchira26 from "../assets/ruchira26.png";
 import ruchira27 from "../assets/ruchira27.png";
+import ruchira42 from "../assets/ruchira42.png";
 import "./FoodCateogory.css";
 
 function Foodcategory() {
@@ -21,7 +22,7 @@ function Foodcategory() {
             {food === "starters" && (
                 <div>
                     <img src={ruchira16} alt="NO image" style={{ width: '100%' }} />
-                    <button className="btn" id="b1">Add To cart🛒❤️</button>
+                    {/* <button className="btn" id="b1">Add To cart🛒❤️</button>
                     <button className="btn" id="b2">Add To cart🛒❤️</button>
                     <button className="btn" id="b3">Add To cart🛒❤️</button>
                     <button className="btn" id="b4">Add To cart🛒❤️</button>
@@ -30,7 +31,7 @@ function Foodcategory() {
                     <button className="btn" id="b7">Add To cart🛒❤️</button>
                     <button className="btn" id="b8">Add To cart🛒❤️</button>
                     <button className="btn" id="b9">Add To cart🛒❤️</button>
-                    <button className="btn" id="b10">Add To cart🛒❤️</button>
+                    <button className="btn" id="b10">Add To cart🛒❤️</button> */}
                 </div>
             )
             }
@@ -111,6 +112,14 @@ function Foodcategory() {
                     </div>
                 )
             }
+            {
+                food === "chapathis" && (
+                    <div>
+                        <img src={ruchira42} alt="noimg" style={{ width: '100%' }}></img>
+                    </div>
+                )
+            }
+
 
 
 

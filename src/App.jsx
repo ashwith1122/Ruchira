@@ -12,31 +12,40 @@ import Foodcategory from './Pages/Foodcategory'
 import { Demo } from './Pages/demo'
 import MenuCard from './Pages/MenuCard'
 import Payements from './Pages/Payements'
+import Gratitude from './Pages/Gratitude'
+import SplashScreen from './Pages/Flashscreen'
+import Addtocart from './Pages/Addtocart'
+import { CartProvider } from './Context/CartContext'
 
 function App() {
   return (
-    <BrowserRouter>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Ruchira />}>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="/menu" element={<Menu />}></Route>
-          {/* <Route path="menu" element={<Demo />}></Route> */}
-          <Route path='/menucards' >
-            <Route path="/menucards/:mcid" element={<MenuCard />} ></Route>
-          </Route>
-          <Route path="/categories">
-            <Route path="/categories/:food" element={<Foodcategory />}></Route>
-          </Route>
-          <Route path="/payements" element={<Payements />} />
-          <Route path="/aboutus" element={<Aboutus />}></Route>
-          <Route path="/login" element={<Login />}></Route>
-        </Route>
-      </Routes>
-      <Footer />
+    <CartProvider>
+      <BrowserRouter>
+        <SplashScreen />
+        <Header />
+        <Routes>
+          <Route path="/" element={<Ruchira />}>
+            <Route path="/" element={<Home />}></Route>
+            <Route path="/menu" element={<Menu />}></Route>
+            {/* <Route path="menu" element={<Demo />}></Route> */}
+            <Route path='/menucards' >
+              <Route path="/menucards/:mcid" element={<MenuCard />} ></Route>
+            </Route>
+            <Route path="/categories">
+              <Route path="/categories/:food" element={<Foodcategory />}></Route>
+            </Route>
+            <Route path="/payements" element={<Payements />} />
+            <Route path="/aboutus" element={<Aboutus />}></Route>
+            <Route path="/login" element={<Login />}></Route>
+            <Route path="/gratitude" element={<Gratitude />}></Route>
+            <Route path="/addtocart" element={<Addtocart />} />
 
-    </BrowserRouter >
+          </Route>
+        </Routes>
+        <Footer />
 
+      </BrowserRouter >
+    </CartProvider>
   )
 }
 
