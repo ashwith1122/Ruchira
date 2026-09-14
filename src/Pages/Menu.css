@@ -1,25 +1,145 @@
+/* =========================
+   EXISTING / DESKTOP VIEW
+   ========================= */
+
 /* Carousel */
-#courouselId {
+
+#carouselId {
     width: 70% !important;
     max-width: 900px !important;
     margin: 30px auto !important;
 }
 
-#courouselId.carousel-inner {
+#carouselId .carousel-inner {
     width: 100% !important;
     height: 450px !important;
     overflow: hidden !important;
     border-radius: 15px !important;
 }
 
-#courouselId.carousel-item {
+#carouselId .carousel-item {
     width: 100% !important;
     height: 460px !important;
 }
 
-#courouselId.carousel-item img {
+#carouselId .carousel-item img {
     width: 100% !important;
     height: 450px !important;
     object-fit: cover !important;
     display: block !important;
+}
+
+
+/* =========================
+   TABLET
+   ========================= */
+
+@media (max-width: 991px) {
+
+    #carouselId {
+        width: 90% !important;
+        margin: 20px auto !important;
+    }
+
+    #carouselId .carousel-inner {
+        height: auto !important;
+        max-height: 450px !important;
+    }
+
+    #carouselId .carousel-item {
+        height: auto !important;
+    }
+
+    #carouselId .carousel-item img {
+        width: 100% !important;
+        height: auto !important;
+        max-height: 450px !important;
+        object-fit: cover !important;
+    }
+
+    #hi {
+        width: 45% !important;
+        height: auto !important;
+    }
+
+    #hi img {
+        width: 100% !important;
+        height: auto !important;
+        aspect-ratio: 1 / 0.91;
+        object-fit: cover;
+    }
+}
+
+
+/* =========================
+   MOBILE
+   ========================= */
+
+@media (max-width: 576px) {
+
+    #carouselId {
+        width: 100% !important;
+        margin: 10px auto !important;
+    }
+
+    #carouselId .carousel-inner {
+        height: auto !important;
+        border-radius: 10px !important;
+    }
+
+    #carouselId .carousel-item {
+        height: auto !important;
+    }
+
+    #carouselId .carousel-item img {
+        width: 100% !important;
+        height: auto !important;
+        max-height: none !important;
+        object-fit: cover !important;
+        border-radius: 10px !important;
+    }
+
+    /* Category cards */
+
+    ul {
+        gap: 20px !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    #hi {
+        width: 100% !important;
+        height: auto !important;
+        max-width: 400px !important;
+    }
+
+    #hi img {
+        width: 100% !important;
+        height: auto !important;
+        aspect-ratio: 1 / 0.91;
+        object-fit: cover !important;
+        border-radius: 20px !important;
+    }
+}
+
+
+/* =========================
+   SMALL MOBILE
+   ========================= */
+
+@media (max-width: 400px) {
+
+    #carouselId {
+        width: 100% !important;
+        margin: 5px auto !important;
+    }
+
+    #hi {
+        width: 100% !important;
+        max-width: 350px !important;
+    }
+
+    ul {
+        gap: 15px !important;
+    }
 }

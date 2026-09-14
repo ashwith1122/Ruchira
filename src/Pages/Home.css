@@ -67,13 +67,14 @@
     top: 1540px;
     left: 260px;
 }
+
 .footer-phone1 {
     color: rgb(244, 111, 24);
     text-decoration: none;
     font-size: 20px;
     position: absolute;
     top: 1540px;
-    left:470px;
+    left: 470px;
 }
 
 .footer-phone:hover {
@@ -81,7 +82,7 @@
 }
 
 .footer-location {
-    color:  #ff6b00;
+    color: #ff6b00;
     text-decoration: none;
     position: absolute;
     font-size: 20px;
@@ -90,12 +91,312 @@
 }
 
 .footer-location:hover {
-    color:blue;
-
+    color: blue;
 }
-#me
-{
-     position: absolute;
+
+#me {
+    position: absolute;
     top: 1540px;
     left: 1000px;
+}
+
+
+/* =========================================
+   TABLET RESPONSIVE
+   ========================================= */
+
+@media (max-width: 991px) {
+
+    /* Main Hero Image */
+
+    .hero>img:first-child {
+        width: 100% !important;
+        height: auto !important;
+        display: block;
+    }
+
+
+    /* Hero Buttons */
+
+    .hero-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin: 20px auto;
+        width: 100%;
+    }
+
+    .but1,
+    .but2 {
+        position: static;
+        width: 180px;
+        height: 50px;
+    }
+
+
+    /* Food / View Image */
+
+    .view {
+        position: relative;
+        top: auto;
+        width: 97% !important;
+        height: auto !important;
+        display: block;
+        margin: 20px auto 0;
+    }
+
+
+    /* View All */
+
+    .viewall {
+        position: relative;
+        right: auto;
+        display: block;
+        margin: 10px 30px 20px auto;
+        font-size: 20px;
+    }
+
+
+    /* Small Empty Div */
+
+    .hii {
+        display: none;
+    }
+
+
+    /* About Us Image */
+
+    .harsha {
+        width: 100% !important;
+        height: auto;
+        padding-top: 30px;
+        display: block;
+    }
+
+
+    /* Know More Button */
+
+    .ashu {
+        position: relative;
+        top: auto;
+        left: auto;
+        display: block;
+        width: 269px;
+        height: 55px;
+        margin: 20px auto;
+    }
+
+
+    /* Footer Image */
+
+    #footers {
+        position: relative;
+        top: auto;
+        left: auto;
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 20px auto 0;
+    }
+
+
+    /* Footer Phone */
+
+    .footer-phone,
+    .footer-phone1,
+    .footer-location {
+        position: relative;
+        top: auto;
+        left: auto;
+        display: block;
+        text-align: center;
+        margin: 12px auto;
+        font-size: 18px;
+    }
+
+
+    /* Thank You */
+
+    #me {
+        position: relative;
+        top: auto;
+        left: auto;
+        text-align: center;
+        margin: 20px auto 30px;
+    }
+}
+
+
+/* =========================================
+   MOBILE RESPONSIVE
+   ========================================= */
+
+@media (max-width: 576px) {
+
+    /* Main Hero Image */
+
+    .hero>img:first-child {
+        width: 100% !important;
+        height: auto !important;
+        display: block;
+    }
+
+
+    /* Hero Buttons */
+
+    .hero-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        width: 100%;
+        margin: 15px auto 25px;
+    }
+
+    .but1,
+    .but2 {
+        position: static;
+        width: 85%;
+        max-width: 300px;
+        height: 48px;
+        font-size: 15px;
+    }
+
+
+    /* View Image */
+
+    .view {
+        position: relative;
+        top: auto;
+        width: 100% !important;
+        height: auto !important;
+        display: block;
+        margin: 10px auto 0;
+    }
+
+
+    /* View All */
+
+    .viewall {
+        position: relative;
+        right: auto;
+        display: block;
+        margin: 10px 20px 20px auto;
+        font-size: 18px;
+    }
+
+
+    /* Remove Empty Space */
+
+    .hii {
+        display: none;
+    }
+
+
+    /* About Us Image */
+
+    .harsha {
+        width: 100% !important;
+        height: auto !important;
+        padding-top: 20px;
+        display: block;
+    }
+
+
+    /* Know More About Us */
+
+    .ashu {
+        position: relative;
+        top: auto;
+        left: auto;
+        display: block;
+        width: 85%;
+        max-width: 300px;
+        height: 50px;
+        margin: 20px auto;
+        font-size: 15px;
+    }
+
+
+    /* Footer Image */
+
+    #footers {
+        position: relative;
+        top: auto;
+        left: auto;
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 20px auto 0;
+    }
+
+
+    /* Footer Details */
+
+    .footer-phone,
+    .footer-phone1,
+    .footer-location {
+        position: relative;
+        top: auto;
+        left: auto;
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 12px auto;
+        font-size: 16px;
+    }
+
+
+    /* Thank You */
+
+    #me {
+        position: relative;
+        top: auto;
+        left: auto;
+        text-align: center;
+        margin: 20px auto 30px;
+        font-size: 20px;
+    }
+}
+
+
+/* =========================================
+   SMALL MOBILE
+   ========================================= */
+
+@media (max-width: 400px) {
+
+    .hero-buttons {
+        gap: 10px;
+    }
+
+    .but1,
+    .but2 {
+        width: 90%;
+        max-width: 280px;
+        height: 45px;
+        font-size: 14px;
+    }
+
+    .viewall {
+        font-size: 16px;
+        margin-right: 15px;
+    }
+
+    .ashu {
+        width: 90%;
+        max-width: 280px;
+        height: 48px;
+        font-size: 14px;
+    }
+
+    .footer-phone,
+    .footer-phone1,
+    .footer-location {
+        font-size: 14px;
+    }
+
+    #me {
+        font-size: 18px;
+    }
 }

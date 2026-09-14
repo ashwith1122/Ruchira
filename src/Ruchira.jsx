@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link, Outlet } from 'react-router-dom'
 import "./Ruchira.css"
 
@@ -7,8 +6,17 @@ function Ruchira() {
         <div>
             <nav class="navbar navbar-expand-sm navbar-dark " style={{ backgroundColor: 'black', color: 'rgb(244,111,20)' }}>
                 <Link class="navbar-brand">✦Ruchira🍝</Link>
-                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-                    aria-expanded="false" aria-label="Toggle navigation"></button>
+                <button
+                    class="navbar-toggler d-lg-none"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapsibleNavId"
+                    aria-controls="collapsibleNavId"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
                 <div class="collapse navbar-collapse" id="collapsibleNavId">
                     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                         <li class="nav-item active">
@@ -39,7 +47,7 @@ function Ruchira() {
                         <li class="nav-item">
                             <Link class="nav-link" to="/aboutus">AboutUs</Link>
                         </li>
-                         <li class="nav-item">
+                        <li class="nav-item">
                             <Link class="nav-link" to="/addtocart">Cart</Link>
                         </li>
                         <li class="nav-item">

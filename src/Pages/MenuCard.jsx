@@ -85,6 +85,8 @@ import ruchira135 from '../assets/ruchira135.png'
 import ruchira136 from '../assets/ruchira136.png'
 import { CartContext } from '../Context/CartContext'
 
+import "./MenuCard.css";
+
 
 function MenuCard() {
     const navigate = useNavigate();

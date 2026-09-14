@@ -1,12 +1,186 @@
-#formy
-{
+#formy {
     position: absolute;
+
     top: 300px;
+
     left: 50%;
 }
-#butta
-{
+
+#butta {
     position: absolute;
-   right: 10px;
+
+    right: 10px;
+
     top: 240px;
+}
+
+/* =========================================
+   RESPONSIVE DESIGN
+   Desktop / Laptop above 991px
+   remains exactly as original
+========================================= */
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 991px) {
+
+    /* Top image */
+
+    .container-fluid img,
+    body>div img {
+        max-width: 100%;
+    }
+
+    /* Payment form */
+
+    #formy {
+        position: relative;
+
+        top: auto;
+        left: auto;
+
+        width: 80%;
+
+        margin: 30px auto;
+
+        box-sizing: border-box;
+    }
+
+    #formy input[type="text"],
+    #formy input[type="submit"] {
+        max-width: 100%;
+    }
+
+    #butta {
+        position: relative;
+
+        right: auto;
+        top: auto;
+
+        display: block;
+
+        margin: 20px auto;
+
+        max-width: 100%;
+    }
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 575px) {
+
+    /* Main payment image */
+
+    img[src*="ruchira41"] {
+        width: 100% !important;
+
+        height: auto !important;
+
+        padding-top: 15px !important;
+
+        object-fit: contain;
+    }
+
+    /* Payment form */
+
+    #formy {
+        position: relative;
+
+        top: auto;
+        left: auto;
+
+        width: 100%;
+
+        margin: 25px auto;
+
+        padding: 0 15px;
+
+        box-sizing: border-box;
+    }
+
+    /* Name input */
+
+    #formy input[type="text"] {
+        width: 100% !important;
+
+        max-width: 100%;
+
+        box-sizing: border-box;
+    }
+
+    /* Payment options */
+
+    #formy .form-check {
+        width: 100%;
+    }
+
+    #formy .form-check-label {
+        font-size: 14px;
+
+        line-height: 1.8;
+    }
+
+    /* Proceed button */
+
+    #formy input[type="submit"] {
+        width: 100% !important;
+
+        max-width: 100%;
+
+        margin-top: 10px;
+    }
+
+    /* Bottom image */
+
+    #butta {
+        position: relative;
+
+        right: auto;
+        top: auto;
+
+        display: block;
+
+        width: 220px !important;
+
+        height: auto !important;
+
+        max-width: 80%;
+
+        margin: 20px auto 10px;
+    }
+
+}
+
+
+/* =========================================
+   VERY SMALL PHONES
+========================================= */
+
+@media (max-width: 380px) {
+
+    img[src*="ruchira41"] {
+        padding-top: 10px !important;
+    }
+
+    #formy {
+        padding: 0 10px;
+    }
+
+    #formy .form-check-label {
+        font-size: 13px;
+    }
+
+    #butta {
+        width: 190px !important;
+
+        max-width: 75%;
+    }
+
 }

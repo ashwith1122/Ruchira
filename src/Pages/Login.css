@@ -1,6 +1,119 @@
-#myform
-{
+#myform {
     position: absolute;
     top: 250px;
     left: 710px;
+}
+
+
+/* =========================
+   TABLET
+   ========================= */
+
+@media (max-width: 991px) {
+
+    .container>img {
+        width: 90% !important;
+        height: auto !important;
+        max-height: 510px;
+        object-fit: contain;
+    }
+
+    #myform {
+        position: relative;
+        top: auto;
+        left: auto;
+        width: 90%;
+        max-width: 500px;
+        margin: 20px auto 30px auto;
+        z-index: 2;
+    }
+
+    #myform h2 {
+        text-align: center;
+    }
+
+    #myform .form-control {
+        width: 100%;
+    }
+
+    #myform form input[type="submit"] {
+        width: 100% !important;
+    }
+}
+
+
+/* =========================
+   MOBILE
+   ========================= */
+
+@media (max-width: 576px) {
+
+    .container {
+        width: 100% !important;
+        padding: 0 15px;
+    }
+
+    .container>img {
+        width: 100% !important;
+        height: auto !important;
+        max-height: none;
+        padding-top: 10px !important;
+        object-fit: contain;
+    }
+
+    #myform {
+        position: relative;
+        top: auto;
+        left: auto;
+        width: 100%;
+        max-width: 400px;
+        margin: 20px auto 25px auto;
+        padding: 0 10px;
+        z-index: 2;
+    }
+
+    #myform h2 {
+        font-size: 22px;
+        text-align: center;
+        padding-bottom: 8px !important;
+    }
+
+    #myform .form-control {
+        width: 100%;
+        height: 45px;
+    }
+
+    #myform form input[type="submit"] {
+        width: 100% !important;
+        height: 45px;
+    }
+
+    #myform small {
+        font-size: 12px;
+    }
+}
+
+
+/* =========================
+   SMALL MOBILE
+   ========================= */
+
+@media (max-width: 400px) {
+
+    #myform {
+        padding: 0 5px;
+    }
+
+    #myform h2 {
+        font-size: 20px;
+    }
+
+    #myform .form-control {
+        height: 42px;
+    }
+
+    #myform form input[type="submit"] {
+        height: 42px;
+        font-size: 14px;
+    }
 }

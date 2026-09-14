@@ -1,100 +1,146 @@
-#b1
-{
+#b1 {
     position: absolute;
     top: 760px;
     left: 45px;
-    background-color: rgb(244,111,24);
+    background-color: rgb(244, 111, 24);
     border: 0cap;
     width: 200px;
     height: 30px;
 }
-#b2
-{
+
+#b2 {
     position: absolute;
     top: 760px;
     left: 295px;
-    background-color: rgb(244,111,24);
+    background-color: rgb(244, 111, 24);
     border: 0cap;
     width: 200px;
     height: 30px;
 }
-#b3
-{
+
+#b3 {
     position: absolute;
     top: 760px;
     left: 565px;
-    background-color: rgb(244,111,24);
+    background-color: rgb(244, 111, 24);
     border: 0cap;
     width: 200px;
     height: 30px;
 }
-#b4
-{
+
+#b4 {
     position: absolute;
     top: 760px;
     left: 825px;
-    background-color: rgb(244,111,24);
+    background-color: rgb(244, 111, 24);
     border: 0cap;
     width: 200px;
     height: 30px;
 }
-#b5
-{
+
+#b5 {
     position: absolute;
     top: 760px;
     left: 1100px;
-    background-color: rgb(244,111,24);
+    background-color: rgb(244, 111, 24);
     border: 0cap;
     width: 200px;
     height: 30px;
 }
-#b6
-{
+
+#b6 {
     position: absolute;
     top: 1300px;
     left: 45px;
-    background-color: rgb(244,111,24);
+    background-color: rgb(244, 111, 24);
     border: 0cap;
     width: 200px;
     height: 30px;
 }
-#b7
-{
+
+#b7 {
     position: absolute;
     top: 1300px;
     left: 295px;
-    background-color: rgb(244,111,24);
+    background-color: rgb(244, 111, 24);
     border: 0cap;
     width: 200px;
     height: 30px;
 }
-#b8
-{
+
+#b8 {
     position: absolute;
     top: 1300px;
     left: 560px;
-    background-color: rgb(244,111,24);
+    background-color: rgb(244, 111, 24);
     border: 0cap;
     width: 200px;
     height: 30px;
 }
-#b9
-{
+
+#b9 {
     position: absolute;
-    top:1300px;
+    top: 1300px;
     left: 820px;
-    background-color: rgb(244,111,24);
+    background-color: rgb(244, 111, 24);
     border: 0cap;
     width: 200px;
     height: 30px;
 }
-#b10
-{
+
+#b10 {
     position: absolute;
     top: 1300px;
     left: 1085px;
-    background-color: rgb(244,111,24);
+    background-color: rgb(244, 111, 24);
     border: 0cap;
     width: 200px;
     height: 30px;
+}
+
+
+/* =========================================
+   TABLET RESPONSIVE
+   ========================================= */
+
+@media (max-width: 991px) {
+
+    .container img,
+    body img {
+        max-width: 100%;
+        height: auto;
+    }
+
+}
+
+
+/* =========================================
+   MOBILE RESPONSIVE
+   ========================================= */
+
+@media (max-width: 576px) {
+
+    .container img,
+    body img {
+        width: 100% !important;
+        max-width: 100%;
+        height: auto !important;
+        display: block;
+    }
+
+}
+
+
+/* =========================================
+   SMALL MOBILE
+   ========================================= */
+
+@media (max-width: 400px) {
+
+    .container img,
+    body img {
+        width: 100% !important;
+        height: auto !important;
+    }
+
 }

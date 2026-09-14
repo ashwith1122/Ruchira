@@ -1,0 +1,344 @@
+/* =========================================
+   TABLET RESPONSIVE
+   ========================================= */
+
+@media (max-width: 991px) {
+
+    /* Main page container */
+
+    body {
+        overflow-x: hidden;
+    }
+
+
+    /* Welcome heading */
+
+    .cart-page-heading {
+        width: 100% !important;
+    }
+
+
+    /* Main two-column section */
+
+    .cart-main-section {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 30px !important;
+    }
+
+
+    /* Cart items box */
+
+    .cart-items-box {
+        width: 85% !important;
+        margin-left: 0 !important;
+    }
+
+
+    /* Individual cart item */
+
+    .cart-item {
+        width: 100% !important;
+    }
+
+
+    /* Image */
+
+    .cart-item-image {
+        width: 50% !important;
+    }
+
+
+    /* Item information */
+
+    .cart-item-details {
+        width: 50% !important;
+    }
+
+
+    /* Order summary */
+
+    .order-summary {
+        width: 80% !important;
+        height: auto !important;
+        margin-left: 0 !important;
+        box-sizing: border-box !important;
+    }
+
+
+    /* Summary values */
+
+    .summary-value {
+        margin-left: 100px !important;
+    }
+
+
+    /* Buttons */
+
+    .summary-buttons {
+        justify-content: center !important;
+        gap: 30px !important;
+    }
+}
+
+
+/* =========================================
+   MOBILE RESPONSIVE
+   ========================================= */
+
+@media (max-width: 576px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+
+    /* Main container */
+
+    .cart-container {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+
+    /* Heading */
+
+    .cart-page-heading {
+        width: 100% !important;
+        height: 80px !important;
+    }
+
+    .cart-page-heading h1 {
+        font-size: 25px !important;
+        padding-top: 22px !important;
+    }
+
+
+    /* Main section */
+
+    .cart-main-section {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        width: 100% !important;
+        gap: 25px !important;
+    }
+
+
+    /* Cart box */
+
+    .cart-items-box {
+        width: 92% !important;
+        margin-left: 0 !important;
+        box-sizing: border-box !important;
+        border-radius: 20px !important;
+    }
+
+
+    /* Cart items wrapper */
+
+    .cart-items-list {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        gap: 20px !important;
+    }
+
+
+    /* Individual item */
+
+    .cart-item {
+        width: 100% !important;
+        height: auto !important;
+        min-height: 420px !important;
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+
+    /* Item image */
+
+    .cart-item-image {
+        width: 100% !important;
+        height: 200px !important;
+    }
+
+    .cart-item-image img {
+        width: 100% !important;
+        height: 200px !important;
+        object-fit: cover !important;
+    }
+
+
+    /* Item details */
+
+    .cart-item-details {
+        width: 100% !important;
+        height: auto !important;
+        padding-bottom: 15px !important;
+    }
+
+
+    .cart-item-details h3 {
+        font-size: 20px !important;
+        margin: 10px 0 !important;
+    }
+
+
+    /* Remove button */
+
+    .remove-item-btn {
+        width: 160px !important;
+        height: 45px !important;
+        margin: 5px auto !important;
+        display: block !important;
+        font-size: 20px !important;
+        padding-bottom: 0 !important;
+    }
+
+
+    /* Quantity controls */
+
+    .quantity-controls {
+        margin-left: 0 !important;
+        margin-top: 10px !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+
+    /* Empty cart message */
+
+    .empty-cart-message {
+        position: relative !important;
+        top: auto !important;
+        left: auto !important;
+        text-align: center !important;
+        font-size: 30px !important;
+        margin: 50px auto !important;
+    }
+
+
+    /* Order Summary */
+
+    .order-summary {
+        width: 92% !important;
+        height: auto !important;
+        margin-left: 0 !important;
+        padding: 20px !important;
+        box-sizing: border-box !important;
+    }
+
+
+    .order-summary h1 {
+        font-size: 25px !important;
+    }
+
+
+    /* Summary rows */
+
+    .order-summary h2 {
+        font-size: 18px !important;
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+    }
+
+
+    .summary-value {
+        margin-left: 0 !important;
+    }
+
+
+    /* Horizontal lines */
+
+    .summary-line {
+        overflow: hidden !important;
+        white-space: nowrap !important;
+        font-size: 8px !important;
+    }
+
+
+    /* Bottom buttons */
+
+    .summary-buttons {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 15px !important;
+        margin-top: 15px !important;
+    }
+
+
+    .summary-buttons button {
+        width: 90% !important;
+        font-size: 17px !important;
+        padding: 10px !important;
+    }
+}
+
+
+/* =========================================
+   SMALL MOBILE
+   ========================================= */
+
+@media (max-width: 400px) {
+
+    .cart-page-heading h1 {
+        font-size: 22px !important;
+    }
+
+
+    .cart-items-box {
+        width: 95% !important;
+    }
+
+
+    .cart-item {
+        min-height: 400px !important;
+    }
+
+
+    .cart-item-image {
+        height: 170px !important;
+    }
+
+
+    .cart-item-image img {
+        height: 170px !important;
+    }
+
+
+    .cart-item-details h3 {
+        font-size: 18px !important;
+    }
+
+
+    .remove-item-btn {
+        width: 140px !important;
+        font-size: 18px !important;
+    }
+
+
+    .order-summary {
+        width: 95% !important;
+        padding: 15px !important;
+    }
+
+
+    .order-summary h1 {
+        font-size: 22px !important;
+    }
+
+
+    .order-summary h2 {
+        font-size: 16px !important;
+    }
+
+
+    .summary-buttons button {
+        width: 95% !important;
+        font-size: 15px !important;
+    }
+}

@@ -1,0 +1,59 @@
+/* =========================================
+   MOBILE RESPONSIVE
+   Desktop/Laptop remains unchanged
+========================================= */
+
+@media (max-width: 767px) {
+
+    .ruchira-title {
+        font-size: 30px;
+        white-space: nowrap;
+    }
+
+    .ruchira-tagline {
+        font-size: 12px;
+
+        margin-right: 8% !important;
+
+        padding-bottom: 3px;
+    }
+
+}
+
+
+/* =========================================
+   SMALL PHONES
+========================================= */
+
+@media (max-width: 480px) {
+
+    .ruchira-title {
+        font-size: 24px;
+    }
+
+    .ruchira-tagline {
+        font-size: 10px;
+
+        margin-right: 6% !important;
+    }
+
+}
+
+
+/* =========================================
+   VERY SMALL PHONES
+========================================= */
+
+@media (max-width: 360px) {
+
+    .ruchira-title {
+        font-size: 21px;
+    }
+
+    .ruchira-tagline {
+        font-size: 9px;
+
+        margin-right: 5% !important;
+    }
+
+}

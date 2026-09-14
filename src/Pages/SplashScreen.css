@@ -71,15 +71,16 @@
 /* Each letter */
 
 .ruchira-logo h1 span {
-  display: inline-block;
+    display: inline-block;
 
-  opacity: 0;
+    opacity: 0;
 
-  /* Only movement — NO scaling */
-  transform: translateY(45px);
+    /* Only movement — NO scaling */
+    transform: translateY(45px);
 
-  animation: letterAppear 0.7s ease forwards;
+    animation: letterAppear 0.7s ease forwards;
 }
+
 
 /* Letter timing */
 
@@ -248,21 +249,22 @@
 
 @keyframes letterAppear {
 
-  0% {
-    opacity: 0;
-    transform: translateY(45px);
-  }
+    0% {
+        opacity: 0;
+        transform: translateY(45px);
+    }
 
-  70% {
-    opacity: 1;
-    transform: translateY(-5px);
-  }
+    70% {
+        opacity: 1;
+        transform: translateY(-5px);
+    }
 
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
+
 
 @keyframes glowPulse {
 
@@ -349,26 +351,143 @@
 
 
 /* =========================
+   TABLET
+========================= */
+
+@media (max-width: 991px) {
+
+    .ruchira-logo h1 {
+        font-size: 85px;
+        letter-spacing: 3px;
+    }
+
+    .tagline {
+        font-size: 16px;
+        letter-spacing: 3px;
+    }
+
+    .orange-line {
+        max-width: 220px;
+    }
+
+    .glow {
+        width: 400px;
+        height: 400px;
+    }
+
+    .loader {
+        width: 0;
+    }
+
+    .skip {
+        right: 25px;
+        bottom: 30px;
+    }
+}
+
+
+/* =========================
    MOBILE
 ========================= */
 
 @media (max-width: 600px) {
 
+    .ruchira-logo {
+        width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+
     .ruchira-logo h1 {
         font-size: 52px;
         letter-spacing: 4px;
+        white-space: nowrap;
     }
+
 
     .tagline {
         font-size: 11px;
         letter-spacing: 2px;
+        white-space: nowrap;
     }
+
 
     .tagline span {
         margin: 0 4px;
     }
 
+
     .orange-line {
         width: 180px;
+        max-width: 70%;
+        height: 2px;
+        margin: 12px auto;
+    }
+
+
+    .glow {
+        width: 280px;
+        height: 280px;
+    }
+
+
+    .light {
+        width: 100px;
+    }
+
+
+    .loader {
+        bottom: 35px;
+        height: 2px;
+    }
+
+
+    .skip {
+        bottom: 25px;
+        right: 20px;
+        font-size: 12px;
+    }
+}
+
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media (max-width: 400px) {
+
+    .ruchira-logo h1 {
+        font-size: 45px;
+        letter-spacing: 2px;
+    }
+
+
+    .tagline {
+        font-size: 9px;
+        letter-spacing: 1.5px;
+    }
+
+
+    .tagline span {
+        margin: 0 3px;
+    }
+
+
+    .orange-line {
+        width: 150px;
+    }
+
+
+    .glow {
+        width: 230px;
+        height: 230px;
+    }
+
+
+    .skip {
+        right: 15px;
+        bottom: 20px;
+        font-size: 11px;
     }
 }
